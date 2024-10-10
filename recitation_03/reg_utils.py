@@ -275,8 +275,8 @@ def plot_decision_boundary(forward_propagation, parameters, X, y):
     Z = Z.reshape(xx.shape)
     # Plot the contour and training examples
     plt.contourf(xx, yy, Z, cmap=plt.cm.Spectral)
-    plt.ylabel('x2')
-    plt.xlabel('x1')
+    plt.ylabel('French Player')
+    plt.xlabel('Other Player')
     plt.scatter(X[0, :], X[1, :], c=y, cmap=plt.cm.Spectral)
     plt.title("Model without regularization")
     plt.show()
