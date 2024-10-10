@@ -148,7 +148,7 @@ def update_parameters(parameters, grads, learning_rate):
         
     return parameters
 
-def predict(X, y, parameters):
+def predict(X, y, parameters, forward_propagation):
     """
     This function is used to predict the results of a  n-layer neural network.
     
